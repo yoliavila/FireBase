@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FireBase</string>
+    <string name="guardar">Guardar</string>
+    <string name="modificar">Modificar</string>
+    <string name="borrar">Borrar</string>
+    <string name="listado">Listado</string>
+    <string name="contactos">CONTACTOS</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="n_mero">NÚMERO</string>
+    <string name="direcci_n">DIRECCIÓN</string>
+    <string name="correo">CORREO</string>
+    <string name="contrase_a">CONTRASEÑA</string>
+    <string name="correo_electr_nico">CORREO ELECTRÓNICO</string>
+    <string name="iniciar_sesi_n">INICIAR SESIÓN</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="tema">Tema</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Autenticacion">
+
+    <Button
+        android:id="@+id/registrarbtn"
+        android:layout_width="315dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="556dp"
+        android:backgroundTint="@color/verdenormal"
+        android:text="@string/registrarse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loguearbtn"
+        android:layout_width="312dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/verdenormal"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/iniciar_sesi_n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="312dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="308dp"
+        android:hint="@string/correo_electr_nico"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="312dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="236dp"
+        android:hint="@string/contrase_a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/tema"
+        android:layout_width="109dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/tema"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="207dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?android:attr/fingerprintAuthDrawable" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
